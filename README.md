@@ -14,7 +14,7 @@ Query protocol and response
 Whois, which is a combination of two words, is a query protocol and its answer that is commonly used to query databases.  This database information includes user registration information and resources available on the Internet such as domain, IP, etc.  This protocol stores and presents information in databases in a format that is understandable to humans.
 <br />
 <br />
-<img src="photo.jpg" />
+<img src="photo.png" />
 <br /> 
 
 
