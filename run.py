@@ -45,7 +45,7 @@ banner()
 out = str()
 
 #Domain Name
-domain = input(c6+f"[+] {c2}Enter Domain Address {c1}[{c5}Example : Google.com{c1}] : {c3}").lower().replace("http://","").replace("https://","").replace("www.","")
+domain = input(c6+f"[+] {c2}Enter Domain Address {c1}[{c5}Google.com{c1}] : {c3}").lower().replace("http://","").replace("https://","").replace("www.","")
 
 #Partial check of domain correctness
 domain_find = domain.find('.')
