@@ -83,7 +83,7 @@ else:
     except:
         pass
     #Save
-    os.chdir('History')
+    os.chdir('history')
     file = open(domain[0:domain_find]+".txt", "wt")
     file.write(out)
     file.write("\n\n\t  Developer : MasterBurnt\n\n\t ContactMe : t.me/TheBurnt")
