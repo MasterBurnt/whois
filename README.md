@@ -7,7 +7,7 @@ Query protocol and response
 | | | | | ||  _ `\ /'_`\ | |/',__)
 | (_/ \_) || | | |( (_) )| |\__, \
 `\___x___/'(_) (_)`\___/'(_)(____/
-
+</pre>
 [![Python](https://img.shields.io/badge/language-Python%203-blue.svg)](https://www.python.org)
 
 ### Introduction
