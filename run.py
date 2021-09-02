@@ -60,11 +60,14 @@ else:
     whois_server =  "whois.iana.org"
     
 #Connect
-s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
-s.settimeout(5)
-s.connect((whois_server,43))
-s.send((domain+"\r\n").encode())
-
+try :
+    s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
+    s.settimeout(5)
+    s.connect((whois_server,43))
+    s.send((domain+"\r\n").encode())
+except socket.error:
+    print(c4+f'[-]{c2} Check your{c4} connection{c2} to the{c4} Internet')
+    exit(1)
 #Filter & Show
 msg = s.recv(1000000)
 msg = msg.decode()
@@ -88,5 +91,5 @@ else:
     file.write(out)
     file.write("\n\n\t  Developer : MasterBurnt\n\n\t ContactMe : t.me/TheBurnt")
     file.close()
-    
- 
+
+
